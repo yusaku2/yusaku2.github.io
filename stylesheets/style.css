@@ -1,0 +1,292 @@
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Roboto');
+
+@-ms-viewport {
+  width: device-width;
+}
+.banner{
+  background-image: url("..images/tokyo2.jpg");
+  background-size: cover;
+}
+.navbar {
+  padding-top: 10px;
+  background-color: #7FDBFF;
+  margin: 0;
+  border: none;
+}
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  color: black;
+  text-align: center;
+}
+
+.nav.navbar-nav li a {
+  color: white;
+  font-size: 15px;
+}
+
+ul.nav a:hover {
+  color: white !important;
+  border-bottom: 0.1px solid white;
+  background-color: #7FDBFF;
+}
+
+ul.nav a:focus {
+  background-color: #7FDBFF;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  background-color: #7FDBFF;
+}
+
+.header h1 {
+  padding-top: 70px;
+  /*text-transform: uppercase;
+  /*letter-spacing: .2em;*/
+  font-weight: 400;
+  font-size: 45px;
+}
+
+h1,h3,h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, input, textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickable {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 70px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-image:url("https://image.flaticon.com/icons/svg/25/25623.svg");
+  background-position: center;
+  background-size: 60px;
+}
+
+.animated {
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+
+.aboutMe {
+  height: auto;
+  background-color: #F0F7EE; /*#8693AB*/
+  text-align: center;
+  color: black;
+  padding: 70px;
+}
+
+.aboutMe p {
+  font-size: 15px;
+}
+
+
+#profile {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 1px solid white;
+  margin: 30px;
+}
+
+.content-about {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  color: black;
+}
+
+.content-about p:last-child {
+  margin: 20px;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.languages {
+  height: auto;
+  padding: 70px;
+  background: white;
+  text-align: center;
+  font-size: 100px;
+  background-color: #C6EFFF;
+}
+
+.languages h1 {
+  color: black;
+}
+
+.languages i {
+  color: gray;
+  font-size: 50px;
+}
+
+
+.languages p {
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.skill {
+  width: 70%;
+  margin: auto;
+}
+
+.projects {
+  padding: 70px;
+  background-color: #F0F7EE;
+}
+
+.projects h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+}
+
+
+.contact {
+  height: auto;
+  width: 100%;
+  background-color: #C6EFFF;
+  text-align: center;
+  padding: 70px;
+}
+
+.contact h1 {
+  color: black;
+}
+
+.contact p {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+
+.form-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+
+#submit {
+  width: 200px;
+  margin: auto;
+  border-radius: 1px;
+  border: 2px solid black;
+  opacity: 0.9;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#submit:hover {
+  opacity: 1;
+  background-color: lightgray;
+  color: white;
+}
+
+.form-container input {
+  border-radius: 1px;
+  border: 1px solid white;
+}
+
+.form-container input:focus {
+  border: 2px solid black;
+}
+
+#text {
+  border-radius: 1px;
+  border: 1px solid white;
+}
+
+.form-container #text:focus {
+  border: 2px solid black;
+}
+
+
+.card {
+  position: relative;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  opacity: 0.9;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.card-description p {
+  position: absolute;
+  font-style: italic;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+
+.card-link a {
+  text-decoration: none;
+}
+
+.footer {
+  position: relative;
+  margin-top: 10px;
+  background-color: yellow;
+}
+
+.footer-links {
+  position: absolute;
+  left: 15px;
+  letter-spacing: 1px;
+}
+
+.footer-copyright {
+  position: absolute;
+  right: 15px;
+}
