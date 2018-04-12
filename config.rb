@@ -147,7 +147,7 @@ helpers do
 end
 
 # Generate sitemap after build
-activate :sitemap_generator 
+activate :sitemap_generator
 
 # Enable syntax highlighting
 set :markdown_engine, :redcarpet
@@ -161,7 +161,7 @@ set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
 
-  activate :minify_css        
+  activate :minify_css
   activate :minify_javascript
 
   # Enable cache buster
