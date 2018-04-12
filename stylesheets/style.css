@@ -5,12 +5,12 @@
   width: device-width;
 }
 .banner{
-  background-image: url("..images/tokyo2.jpg");
+  background-image: url("images/tokyo2.jpg");
   background-size: cover;
 }
 .navbar {
   padding-top: 10px;
-  background-color: #7FDBFF;
+  background-color: #AED09E;
   margin: 0;
   border: none;
 }
@@ -35,18 +35,18 @@
 ul.nav a:hover {
   color: white !important;
   border-bottom: 0.1px solid white;
-  background-color: #7FDBFF;
+  background-color: #AED09E;
 }
 
 ul.nav a:focus {
-  background-color: #7FDBFF;
+  background-color: #AED09E;
 }
 
 .header {
   position: relative;
   text-align: center;
   height: 100vh;
-  background-color: #7FDBFF;
+  background-color: #AED09E;
 }
 
 .header h1 {
@@ -70,6 +70,7 @@ p, input, textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("images/tokyo2.jpg");
 }
 
 .clickable {
@@ -109,7 +110,7 @@ p, input, textarea {
 
 
 #profile {
-  border-radius: 50%;
+  border-radius: 100%;
   width: 150px;
   height: 150px;
   border: 1px solid white;
