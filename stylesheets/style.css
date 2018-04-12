@@ -5,8 +5,15 @@
   width: device-width;
 }
 .banner{
-  background-image: url("images/tokyo2.jpg");
+/*  background-image: url("images/tokyo2.jpg");*/
+/*background-size: cover;
+*/
+
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(image-path("tokyo2.jpg"));
   background-size: cover;
+  height: calc(100vh - 70px);
+  width: 100%;
+  background-attachment: fixed;
 }
 .navbar {
   padding-top: 10px;
@@ -98,7 +105,7 @@ p, input, textarea {
 
 .aboutMe {
   height: auto;
-  background-color: #F0F7EE; /*#8693AB*/
+  background-color: #F4EEC0; /*#8693AB*/
   text-align: center;
   color: black;
   padding: 70px;
